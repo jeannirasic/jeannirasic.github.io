@@ -467,6 +467,38 @@
     }
     gift_carousel();
 
+    /*================================
+     Photos-carousel
+     ==================================*/
+    function photos_carousel() {
+        var owl = $(".Photos-carousel");
+        owl.owlCarousel({
+            loop: true,
+            margin: 0,
+            navText: false,
+            nav: false,
+            items: 5,
+            smartSpeed: 1000,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                480: {
+                    items: 2
+                },
+                760: {
+                    items: 4
+                },
+                1080: {
+                    items: 4
+                }
+            }
+        });
+    }
+    photos_carousel();
     /*------------------------------------------
         = BACK TO TOP
     -------------------------------------------*/

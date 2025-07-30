@@ -3193,6 +3193,27 @@ option {
   width:100%;
 }
 /*========================
+1.5 Photos-area
+==========================*/
+.Photos-area {
+  background: #f8f8f8;
+  padding-top: 80px;
+}
+
+.photos-item {
+    padding: 70px 0;
+}
+
+.owl-carousel .owl-item img {
+    width: 95%;
+}
+.Photos-area p {
+    max-width: 640px;
+    margin:0 auto;
+    text-align: center;
+}
+
+/*========================
 1.5 Gift-area
 ==========================*/
 .Gift-area {
